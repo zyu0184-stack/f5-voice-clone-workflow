@@ -1,0 +1,26 @@
+# torch / torchaudio 不在这里装：setup_tts.sh 复用系统已装好 CUDA 版本，
+# 避免重复下载 2 GB。要自己指定，装完 torch 再加 --index-url 装 torchaudio。
+f5-tts
+
+# F5-TTS 的隐式依赖（--no-deps 安装时需要逐个补齐）
+vocos
+ema-pytorch
+x-transformers
+cached_path
+pydub
+unidecode
+rjieba
+wandb
+accelerate
+soundfile
+librosa
+numpy
+tqdm
+
+# 版本敏感：这三个互相约束，别单独升级
+transformers==4.46.3
+huggingface-hub==0.26.2
+datasets==2.21.0
+
+# 验收用（合成结果回读）
+faster-whisper

@@ -1,0 +1,25 @@
+# 环境
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型权重（自己下，别进仓库）
+models/
+
+# 音频与产物
+refs/
+work/
+out/
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# 真实音色表（含参考音频路径与逐字稿），只提交 example
+voices.json
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,18 @@
+{
+  "speaker_a": {
+    "name": "说话人A",
+    "ref": "refs/speaker_a_ref.wav",
+    "ref_text": "这段参考音频里逐字说的那句话。",
+    "speed": 1.0,
+    "nfe": 32,
+    "cfg": 2.0
+  },
+  "speaker_b": {
+    "name": "说话人B",
+    "ref": "refs/speaker_b_ref.wav",
+    "ref_text": "另一段参考音频里逐字说的那句话。",
+    "speed": 1.0,
+    "nfe": 32,
+    "cfg": 2.0
+  }
+}
