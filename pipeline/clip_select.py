@@ -10,7 +10,8 @@ from pathlib import Path
 
 
 def pick(seg_json, span=10.0, hop=1.0, min_cov=0.72, min_start=0.8):
-    segs = json.load(open(seg_json, encoding="utf-8"))["segments"]
+    with open(seg_json, encoding="utf-8") as f:
+        segs = json.load(f)["segments"]
     total = max(s["end"] for s in segs) + 2
     cands = []
     t = min_start

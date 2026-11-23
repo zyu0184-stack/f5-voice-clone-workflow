@@ -1,6 +1,6 @@
 """Transcribe a wav/mp3 to check a synthesized clip really says what it should.
 
-usage: python tools/verify_wav.py <audio> [--model DIR]
+usage: python scripts/verify_wav.py <audio> [--model DIR]
 """
 import argparse
 import os

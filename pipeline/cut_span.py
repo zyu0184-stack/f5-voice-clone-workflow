@@ -1,5 +1,5 @@
 """按时间精确切参考片段。用法：
-  python tools/cut_span.py speaker_b 39.4 50.5 refs/speaker_b_refA.wav [--denoise]
+  python pipeline/cut_span.py speaker_b 39.4 50.5 refs/speaker_b_ref.wav [--denoise]
 """
 import subprocess
 import sys

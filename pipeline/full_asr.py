@@ -1,6 +1,6 @@
 """整片转写（只要时间戳和文本，用来挑片段、做逐字稿）。
 
-用法：.venv\\Scripts\\python.exe tools/full_asr.py speaker_b [--beam 1]
+用法：.venv\\Scripts\\python.exe pipeline/full_asr.py speaker_b [--beam 1]
 输出：work/<slug>.full.json = [{idx,start,end,text,dur,chars}]
 """
 import json

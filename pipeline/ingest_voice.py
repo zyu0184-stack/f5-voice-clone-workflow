@@ -1,6 +1,6 @@
 """新音频入库：探测 → 转工作副本 → 找干净语音段 → 统计。输出 UTF-8 JSON，供后续切参考音频用。
 
-用法：.venv\\Scripts\\python.exe tools/ingest_voice.py "long_take说话人B.mp3" speaker_b
+用法：.venv\\Scripts\\python.exe pipeline/ingest_voice.py "long_take.mp3" speaker_b
 """
 import json
 import subprocess

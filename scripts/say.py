@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """一次加载模型，按句批量合成（同音色）。用法：
-  .venv/Scripts/python.exe tools/say.py --ref refs/x.wav --ref-text "..." --out-dir out \
+  .venv/Scripts/python.exe scripts/say.py --ref refs/x.wav --ref-text "..." --out-dir out \
       --text "第一句" --text "第二句"
 """
 import argparse

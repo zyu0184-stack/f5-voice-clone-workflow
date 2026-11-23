@@ -1,7 +1,7 @@
 """从一条长音频里挑出可用的参考片段（零样本克隆用），并转写做逐字稿候选。
 
 用法：
-  .venv\\Scripts\\python.exe tools/pick_clip.py speaker_b 说话人B [--win 10] [--top 5] [--asr]
+  .venv\\Scripts\\python.exe pipeline/pick_clip.py speaker_b 说话人B [--win 10] [--top 5] [--asr]
 
 输出：
   work/<slug>.clips.json   候选片段表（时间、覆盖、平坦度、能量）

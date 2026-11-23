@@ -2,7 +2,7 @@
 """F5-TTS 常驻 HTTP 服务：给 dsh-voice-mini / dsh-duet 提供本地音色克隆。
 
 启动（模型只加载一次，之后每句只推理）：
-  .venv/Scripts/python.exe tools/f5_server.py --port 18231
+  .venv/Scripts/python.exe scripts/f5_server.py --port 18231
 
 接口：
   GET  /health          -> {"ok":true,"loaded":true,"device":"cuda","voices":[...]}

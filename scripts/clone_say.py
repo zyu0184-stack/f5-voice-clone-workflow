@@ -2,8 +2,8 @@
 """用本机 F5-TTS 做零样本音色克隆：给定参考音频 + 参考文本 + 新文本，输出同音色 wav。
 
 用法：
-  .venv/Scripts/python.exe tools/clone_say.py \
-      --ref refs/t1_ref1_49.66-59.7s.wav \
+  .venv/Scripts/python.exe scripts/clone_say.py \
+      --ref refs/speaker_a_ref.wav \
       --ref-text "参考音频里说的原话" \
       --text "要合成的新内容" \
       --out out/demo.wav
